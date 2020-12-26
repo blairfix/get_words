@@ -52,6 +52,6 @@ Then source it with the command:
 
 ```
 Sys.setenv("PKG_LIBS"="-lboost_regex")
-sourceCpp('read_sql')
+sourceCpp('get_words.cpp')
 ```
 
