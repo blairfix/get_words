@@ -1,6 +1,6 @@
 # get_words
 
-
+A function to extract the words in a string.
 
 ### Inputs
 
@@ -21,7 +21,6 @@ Returns a vector containing all the words in `x`.
 
 ```R
 library(Rcpp)
-
 Sys.setenv("PKG_LIBS"="-lboost_regex")
 sourceCpp("get_words.cpp")
 
